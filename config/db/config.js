@@ -1,9 +1,9 @@
 export default {
   development: {
-    host: process.env.HOGE_SERVICE_DB_HOST || "127.0.0.1",
-    username: process.env.HOGE_SERVICE_DB_USER || "root",
-    password: process.env.HOGE_SERVICE_DB_PASSWORD || "",
-    database: process.env.HOGE_SERVICE_DB_DATABASE || "hoge",
+    host: process.env.DB_HOST || "localhost",
+    username: process.env.DB_USER || "root",
+    password: process.env.DB_PASSWORD || "password",
+    database: process.env.DB_DATABASE || "sample",
   },
   test: {
     username: "root",

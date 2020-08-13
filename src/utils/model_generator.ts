@@ -1,4 +1,5 @@
 import { Sequelize, Op } from "sequelize";
+import { HogeDB } from "../types/index";
 
 export default class ModelGenerater {
   public sequelize: Sequelize;
