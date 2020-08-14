@@ -1,10 +1,12 @@
 import { Sequelize, Op } from "sequelize";
 import { HogeDB } from "../types/index";
+console.log("hellooooooo");
 
 export default class ModelGenerater {
   public sequelize: Sequelize;
 
   public constructor(dbConfig: any) {
+    console.log("111111111111111");
     this.sequelize = new Sequelize(
       dbConfig.database,
       dbConfig.username,
@@ -17,6 +19,7 @@ export default class ModelGenerater {
         omitNull: true,
       }
     );
+    console.log(this.sequelize);
   }
 }
 

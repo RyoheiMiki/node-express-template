@@ -21,10 +21,10 @@ class UserDetails extends Model {
           allowNull: false,
           primaryKey: true,
         },
-        user_id: {
-          type: DataTypes.INTEGER,
-          allowNull: false,
-        },
+        // user_id: {
+        //   type: DataTypes.INTEGER,
+        //   allowNull: false,
+        // },
         nick_name: {
           type: DataTypes.STRING,
           allowNull: true,
